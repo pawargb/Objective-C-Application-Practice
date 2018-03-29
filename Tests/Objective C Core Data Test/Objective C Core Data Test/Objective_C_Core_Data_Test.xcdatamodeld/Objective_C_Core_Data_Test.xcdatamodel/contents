@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D47" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Company" representedClassName="Company" syncable="YES" codeGenerationType="class">
+        <attribute name="companyID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Department" representedClassName="Department" syncable="YES" codeGenerationType="class">
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departmentID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="departmentName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES" codeGenerationType="class">
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departmentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employeeID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Company" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Department" positionX="-54" positionY="9" width="128" height="90"/>
+        <element name="Employee" positionX="-36" positionY="36" width="128" height="120"/>
+    </elements>
+</model>

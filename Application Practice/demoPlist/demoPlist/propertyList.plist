@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreparationTime</key>
+	<array>
+		<string>30min</string>
+		<string>40min</string>
+		<string>50min</string>
+	</array>
+	<key>Recipes</key>
+	<array>
+		<string>Icecream</string>
+		<string>Panipuri</string>
+		<string>Cake</string>
+	</array>
+</dict>
+</plist>
